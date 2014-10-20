@@ -245,12 +245,6 @@ table {
     border-spacing: 0;
 }
 
-body {
-    font-family: 'Roboto',sans-serif;
-    background-color: #fafafa;
-    color: #263238;
-}
-
 .row:before,.row:after {
     content: "";
     display: table;
@@ -261,6 +255,13 @@ body {
     position: absolute;
     left: -100000;
 }
+
+body {
+    font-family: 'Roboto',sans-serif;
+    background-color: #fafafa;
+    color: #263238;
+}
+
 
 header,section,aside,article {
     padding: 15px 10%;
@@ -285,17 +286,19 @@ a.link,a:visited.link {
     color: inherit;
 }
 
-section h2 {
+section {
     text-align: center;
+}
+
+section h2 {
+    font-weight: bold;
 }
 
 section h3 {
     display: none;
-    text-align: center;
 }
 
 section img {
     width: 100%;
     border: 1px #263238 solid;
-    text-align: center;
 }
